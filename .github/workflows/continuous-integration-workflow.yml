@@ -17,7 +17,7 @@ jobs:
           go-version: '1.14.1'
 
       - name: Install golint dependencies
-          run: go get -u golang.org/x/lint/golint
+        run: go get -u golang.org/x/lint/golint
 
       - name: Run linters
         uses: samuelmeuli/lint-action@v1
