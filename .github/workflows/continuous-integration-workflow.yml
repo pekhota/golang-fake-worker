@@ -19,9 +19,5 @@ jobs:
       - name: Install golint dependencies
         run: go get -u golang.org/x/lint/golint
 
-      - name: Run linters
-        uses: samuelmeuli/lint-action@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          # Enable your linters here
-          golint: true
+      - name: Run linter
+        run: ~/go/bin/golint ./
