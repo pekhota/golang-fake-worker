@@ -20,4 +20,4 @@ jobs:
         run: go get -u golang.org/x/lint/golint
 
       - name: Run linter
-        run: ~/go/bin/golint ./
+        run: ~/go/bin/golint -set_exit_status ./
