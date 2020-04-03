@@ -15,8 +15,8 @@ View assets/call-structure.png for high level code overview.
 ## TODO:
 
 - [X] Docker/Docker compose (13 mb image)
-- [X] Customised server port via flags
-- [ ] CI
+- [X] Args support: /go/bin/async-worker -port=8080
+- [ ] CI 
 - [ ] Database Mysql/Redis example
 - [ ] Tests
 - [ ] Linter

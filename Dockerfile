@@ -7,6 +7,7 @@ FROM golang:alpine AS builder
 # Install git + SSL ca certificates.
 # Git is required for fetching the dependencies.
 # Ca-certificates is required to call HTTPS endpoints.
+# https://askubuntu.com/questions/857476/what-is-the-use-purpose-of-the-ca-certificates-package
 RUN apk update && apk add --no-cache git ca-certificates tzdata && update-ca-certificates
 
 # Create appuser.
