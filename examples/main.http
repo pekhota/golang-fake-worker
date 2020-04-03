@@ -1,10 +1,9 @@
-GET http://localhost:10000/api/jobs
+### Jobs list
+GET http://{{host}}:{{port}}/api/jobs
 Accept: application/json
 
 ###
-
-
-POST http://localhost:10000/api/jobs
+POST http://{{host}}:{{port}}/api/jobs
 Content-Type: application/json
 
 {

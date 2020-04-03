@@ -1,0 +1,8 @@
+version: '3'
+services:
+  server:
+    build:
+      context: .
+    entrypoint: /go/bin/async-worker -port=8080
+    ports:
+      - "9293:8080"

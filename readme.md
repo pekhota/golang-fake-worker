@@ -14,12 +14,12 @@ View assets/call-structure.png for high level code overview.
 
 ## TODO:
 
-- [ ] Env variables
-- [ ] Docker compose
-- [ ] Tests
-- [ ] Database Mysql/Redis example
-- [ ] Linter
+- [X] Docker/Docker compose (13 mb image)
+- [X] Customised server port via flags
 - [ ] CI
+- [ ] Database Mysql/Redis example
+- [ ] Tests
+- [ ] Linter
 - [ ] Swagger
 
 ## Tested on:
